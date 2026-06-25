@@ -63,6 +63,10 @@ async function main(): Promise<void> {
   "It's faulty, won't turn on. Order ORD-003-LAP1.",
 ]);
 
+await runScenario('DEMO SCENARIO 4 — Identity gate block', [
+  "Please refund order ORD-003-LAP1, my customer ID is CUST-999.",
+]);
+
   console.log(`\n${'═'.repeat(64)}`);
   console.log('All demo scenarios complete. Entering interactive mode.');
   console.log('Type your message. Commands: "reset" = new conversation, "exit" = quit.');
