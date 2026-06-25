@@ -1,0 +1,110 @@
+{
+  "customers": [
+    {
+      "id": "CUST-001",
+      "name": "Asha Patel",
+      "email": "asha.patel@email.com"
+    },
+    {
+      "id": "CUST-002",
+      "name": "Marcus Chen",
+      "email": "marcus.chen@email.com"
+    },
+    {
+      "id": "CUST-003",
+      "name": "David Mueller",
+      "email": "david.mueller@email.com"
+    },
+    {
+      "id": "CUST-004",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "ORD-001-WH1",
+      "customerId": "CUST-001",
+      "product": "Water Heater 30gal",
+      "brand": "HeatPro",
+      "amount": 449,
+      "purchaseDate": "2024-03-15",
+      "refundPolicy": {
+        "windowDays": 30,
+        "maxAutoRefund": 500,
+        "policyVersion": "v2.1",
+        "effectiveDate": "2024-01-01"
+      }
+    },
+    {
+      "orderId": "ORD-001-WH2",
+      "customerId": "CUST-001",
+      "product": "Water Heater 40gal",
+      "brand": "WarmFlow",
+      "amount": 529,
+      "purchaseDate": "2026-06-10",
+      "refundPolicy": {
+        "windowDays": 45,
+        "maxAutoRefund": 500,
+        "policyVersion": "v2.3",
+        "effectiveDate": "2025-01-01"
+      }
+    },
+    {
+      "orderId": "ORD-001-WH3",
+      "customerId": "CUST-001",
+      "product": "Water Heater 50gal",
+      "brand": "AquaTherm",
+      "amount": 599,
+      "purchaseDate": "2026-05-20",
+      "refundPolicy": {
+        "windowDays": 60,
+        "maxAutoRefund": 750,
+        "policyVersion": "v2.4",
+        "effectiveDate": "2025-06-01"
+      }
+    },
+    {
+      "orderId": "ORD-002-022",
+      "customerId": "CUST-002",
+      "product": "Water Heater 40gal",
+      "brand": "WarmFlow",
+      "amount": 834,
+      "purchaseDate": "2024-07-21",
+      "refundPolicy": {
+        "windowDays": 30,
+        "maxAutoRefund": 500,
+        "policyVersion": "v2.2",
+        "effectiveDate": "2024-01-01"
+      }
+    },
+    {
+      "orderId": "ORD-003-LAP1",
+      "customerId": "CUST-003",
+      "product": "Laptop Pro 15",
+      "brand": "TechEdge",
+      "amount": 1153,
+      "purchaseDate": "2026-06-15",
+      "refundPolicy": {
+        "windowDays": 30,
+        "maxAutoRefund": 750,
+        "policyVersion": "v2.3",
+        "effectiveDate": "2025-01-01"
+      }
+    },
+    {
+      "orderId": "ORD-004-BLD1",
+      "customerId": "CUST-004",
+      "product": "Smart Blender 1200W",
+      "brand": "BlendMaster",
+      "amount": 189,
+      "purchaseDate": "2026-06-20",
+      "refundPolicy": {
+        "windowDays": 30,
+        "maxAutoRefund": 300,
+        "policyVersion": "v2.3",
+        "effectiveDate": "2025-01-01"
+      }
+    }
+  ]
+}
